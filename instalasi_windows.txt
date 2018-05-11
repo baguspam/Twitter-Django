@@ -1,0 +1,14 @@
+#cek versi
+install python
+https://www.codingforentrepreneurs.com/blog/install-python-django-on-windows/
+set PATH=C:\Python 3.6;%PATH%
+set PYTHONPATH=%PYTHONPATH%;C:\My_python_lib
+
+#cek status dan versi
+python -V
+
+#install virtualenv untuk running manage.py
+pip install virtualenv
+
+#cek status dan versi
+pip freeze
